@@ -1,0 +1,219 @@
+body{
+  background-color: #242424;
+  color: #fff;
+}
+
+.custom{
+  width: 900px;
+  margin: 0 auto;
+}
+
+header{
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.title{
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.title:hover{
+  color: #ddd;
+  text-decoration: none;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu a{
+  color: #fff;
+  font-weight: bold;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.menu a:hover{
+  color: #eee;
+  text-decoration: none;
+}
+
+.menu a.active{
+  border-bottom: 2px solid #aaa;
+  color: #555;
+}
+
+h2{
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.c-high{
+  height: 300px;
+}
+
+.ff{
+  margin-bottom: 5px;
+}
+
+.match-logo{
+  height: 70px;
+  width: 70px;
+  margin-right: 20px;
+}
+
+.board{
+  border: 2px solid #eee;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+  color: #fff;
+}
+
+footer{
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  height: 50px;
+  padding: 10px 70px;
+}
+
+.board p{
+  margin-top: 0px;
+}
+
+/* current match page style */
+
+.board-head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.board-body{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+.point{
+  border: 1px solid #eee;
+  border-radius: 5px;
+  width: 150px;
+  margin: 5px;
+  text-align: center;
+  background-color: #aaa;
+  color: #000;
+}
+
+.board-foot{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 0;
+}
+
+.prize{
+  background-color: #fff;
+  color: #000;
+  width: 150px;
+  margin: 0 auto;
+  border-radius: 5px;
+  display: none;
+}
+
+.bar{
+  margin-bottom: 0;
+}
+
+.view-tag{
+  color: #fff;
+}
+
+.view-tag:hover{
+  color: #ddd;
+  text-decoration: none;
+}
+
+
+/* Notice Style */
+
+.notice{
+  text-align: left;
+  padding: 5px 10px;
+}
+
+/* account style */
+
+.profile{
+  text-align: center;
+}
+
+.achive{
+  border: 2px solid #eee;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+
+.button-grp{
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.profile-img{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.money{
+  background-color: #333;
+  color: #fff;
+}
+
+/* view page css */
+
+.view-img{
+  width: 100%;
+  height: 300px;
+}
+.prizee{
+  color: #fff;
+}
+
+.b-center{
+  text-align: left;
+  color: #ccc;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+/* media query for mobile */
+@media (max-width:600px){
+  .custom{
+    width: 100%;
+  }
+  h2{
+    font-size: 24px;
+    margin-left: 8px;
+  }
+
+  .c-high, .view-img{
+    height: 120px;
+  }
+
+  .menu a{
+    font-size: 18px;
+  }
+
+  .match-logo{
+    height: 70px;
+    width: 70px;
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+}
